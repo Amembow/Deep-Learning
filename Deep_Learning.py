@@ -1,4 +1,3 @@
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -88,4 +87,5 @@ for f in negative_files:
         shutil.move(f'{negative_train}/{f}', negative_val) #12
 
 
+        
 
